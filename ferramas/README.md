@@ -34,10 +34,13 @@ Este proyecto consiste en la construcción de una API para consultar informació
     ```bash
     python manage.py makemigrations
     python manage.py migrate
-5. **Ejecuta el servidor de desarrollo** 
+5. **Ejecutar ** 
+    ```bash
+    python manage.py loaddata seed
+6. **Ejecuta el servidor de desarrollo** 
     ```bash
     python manage.py runserver
-4. **USO** 
+7. **USO** 
     ```bash
     Una vez que el servidor esté en funcionamiento, podrás acceder a la API en http://127.0.0.1:8000/api/
 
