@@ -34,7 +34,7 @@ Este proyecto consiste en la construcción de una API para consultar informació
     ```bash
     python manage.py makemigrations
     python manage.py migrate
-5. **Ejecutar ** 
+5. **Ejecutar** 
     ```bash
     python manage.py loaddata seed
 6. **Ejecuta el servidor de desarrollo** 

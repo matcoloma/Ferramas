@@ -1,4 +1,19 @@
-[
+[   {
+    "model": "api.carrito",
+    "pk": 1,
+    "fields": {
+        "usuario": 1
+    }
+},
+{
+    "model": "api.itemcarrito",
+    "pk": 1,
+    "fields": {
+        "carrito": 1,
+        "producto": 1,
+        "cantidad": 2
+    }
+},
     {
         "model": "api.categoria",
         "pk": 1,
